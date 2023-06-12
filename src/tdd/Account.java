@@ -2,7 +2,7 @@ package tdd;
 
 public class Account {
     private int balance;
-    private String pin;
+    private String pin = "\\d+";
 
     public Account(String pin){
         this.pin = pin;
